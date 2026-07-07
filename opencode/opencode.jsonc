@@ -1,0 +1,41 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "agent": {
+    "explore": {
+      "model": "openai/gpt-5.4-mini",
+      "variant": "high"
+    },
+    "general": {
+      "model": "openai/gpt-5.4-mini",
+      "variant": "xhigh"
+    },
+    "scout": {
+      "model": "openai/gpt-5.4-mini",
+      "variant": "high"
+    },
+    "backend-architect": {
+    },
+    "code-reviewer": {
+      "model": "openai/gpt-5.4-mini",
+      "variant": "xhigh"
+    },
+    "frontend-developer": {
+      "model": "openai/gpt-5.4-mini",
+      "variant": "xhigh"
+    },
+    "minimal-change-engineer": {
+      "model": "openai/gpt-5.4-mini",
+      "variant": "xhigh"
+    },
+    "security-architect": {
+    },
+    "software-architect": {
+      "model": "openai/gpt-5.4-mini",
+      "variant": "xhigh"
+    },
+    "technical-writer": {
+      "model": "openai/gpt-5.4-mini",
+      "variant": "xhigh"
+    }
+  }
+}
