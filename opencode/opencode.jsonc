@@ -10,30 +10,42 @@
       "variant": "xhigh"
     },
     "scout": {
+      "mode": "subagent",
       "model": "openai/gpt-5.4-mini",
       "variant": "high"
     },
     "backend-architect": {
+      "mode": "subagent"
     },
     "code-reviewer": {
+      "mode": "subagent",
       "model": "openai/gpt-5.4-mini",
-      "variant": "xhigh"
+      "variant": "xhigh",
+      "permission": {
+        "edit": "deny",
+        "bash": "deny"
+      }
     },
     "frontend-developer": {
+      "mode": "subagent",
       "model": "openai/gpt-5.4-mini",
       "variant": "xhigh"
     },
     "minimal-change-engineer": {
+      "mode": "subagent",
       "model": "openai/gpt-5.4-mini",
       "variant": "xhigh"
     },
     "security-architect": {
+      "mode": "subagent"
     },
     "software-architect": {
+      "mode": "subagent",
       "model": "openai/gpt-5.4-mini",
       "variant": "xhigh"
     },
     "technical-writer": {
+      "mode": "subagent",
       "model": "openai/gpt-5.4-mini",
       "variant": "xhigh"
     }
